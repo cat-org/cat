@@ -1,1 +1,5 @@
-export default {};
+export default {
+  hooks: {
+    build: console.log,
+  },
+};
